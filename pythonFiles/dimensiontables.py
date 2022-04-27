@@ -20,16 +20,17 @@ pd.options.mode.chained_assignment = None  # default='warn'
 import os
 import kaggle
 
-SetDirectoryToNBADW()
+
 
 ###############################################################################
 # Deal with Directory Issues
 ###############################################################################
+# Sets directory to the root folder for the NBADW project.
+setDirectoryToNBADW()
 
 cwd = os.getcwd()
-os.chdir(cwd + '\\SSISFiles')
 cwd = os.getcwd()
-source_dir = cwd + '\\DataFiles\\Source DataFiles\\'
+source_dir = cwd + "\\DataFiles\\Source_Data\\"
 data_dir = cwd + '\\DataFiles\\'
 
 ###############################################################################

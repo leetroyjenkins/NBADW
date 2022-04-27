@@ -1,24 +1,25 @@
 # Data files to ignore
 
-/DataFiles/_DateDim.csv
-/DataFiles/_players.csv
-/DataFiles/Source Data/boxscore.csv
-/DataFiles/Source Data/coaches.csv
-/DataFiles/Source Data/games.csv
-/DataFiles/Source Data/play_data.csv
-/DataFiles/Source Data/player_info.csv
-/DataFiles/Source Data/salaries.csv
-/DataFiles/Source Data/Team_Records.csv
+
+/DataFiles/Source_Data/boxscore.csv
+/DataFiles/Source_Data/coaches.csv
+/DataFiles/Source_Data/games.csv
+/DataFiles/Source_Data/play_data.csv
+/DataFiles/Source_Data/player_info.csv
+/DataFiles/Source_Data/salaries.csv
+/DataFiles/Source_Data/Team_Records.csv
+/DataFiles/Source_Data/_teamNameLookup.csv
 /DataFiles/_game_lookup.csv
 /DataFiles/_NBAANDBBATEAMS.csv
 /DataFiles/_nbaTeamsDW.csv
 /DataFiles/_teamswithcoaches.csv
-/SSISFiles/_players.csv
-/SSISFiles/_DateDim.csv
-/SSISFiles/_coaches.csv
+/DataFiles/_players.csv
+/DataFiles/_DateDim.csv
+/DataFiles/_coaches.csv
 /DataFiles/_scoringfact.csv
 /DataFiles/_count.csv
-/DataFiles/Source Data/_teamNameLookup.csv
+/DataFiles/_DateDim.csv
+/DataFiles/_players.csv
 
 
 ## Ignore Visual Studio temporary files, build results, and
