@@ -2,9 +2,9 @@
 USE MASTER
 
 IF DB_ID (N'NBADW') IS NOT NULL
-	DROP DATABASE NBADW
+	DROP DATABASE NBADW;
 
-CREATE DATABASE NBADW
+CREATE DATABASE NBADW;
 
 GO
 */
@@ -142,7 +142,7 @@ BEGIN TRAN create_dw_tables
 		CONSTRAINT game_PK PRIMARY KEY (game_dim_syn_key)
 	);
 
-GO
+
 
 ALTER TABLE GameDim
     ADD winning_team AS CAST
@@ -151,9 +151,9 @@ ALTER TABLE GameDim
                 WHEN home_points > away_points THEN home_team
                 ELSE away_team
                 END AS NVARCHAR(255)
-        ) PERSISTED
+        ) PERSISTED;
 
-GO
+
 
 	CREATE TABLE ScoringFact ( 
 		scoring_fact_syn_key INT IDENTITY (1,1)
@@ -177,5 +177,3 @@ COMMIT TRAN create_dw_tables;
 --ROLLBACK create_dw_tables;
 
 GO
-
-USE master

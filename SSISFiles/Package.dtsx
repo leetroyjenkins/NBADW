@@ -467,13 +467,13 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[NBA_DW_TableCreation.sql]"
+      DTS:refId="Package.ConnectionManagers[NBADW_TableCreation.sql]"
       DTS:CreationName="FILE"
       DTS:DTSID="{0AC9495D-89D6-436B-89AD-C50642BBA87B}"
-      DTS:ObjectName="NBA_DW_TableCreation.sql">
+      DTS:ObjectName="NBADW_TableCreation.sql">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="D:\Users\Home\source\repos\leetroyjenkins\NBADataWarehouse\DataWarehouseDimCreation\NBA_DW_TableCreation.sql" />
+          DTS:ConnectionString="D:\Users\Home\source\repos\leetroyjenkins\NBADataWarehouse\DataWarehouseDimCreation\NBADW_TableCreation.sql" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -1325,7 +1325,7 @@
         <SQLTask:SqlTaskData
           SQLTask:Connection="{15989777-E598-4169-8CCA-F6BECCD3063C}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="NBA_DW_TableCreation.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="NBADW_TableCreation.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable

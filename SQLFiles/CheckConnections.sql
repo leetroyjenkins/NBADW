@@ -1,4 +1,6 @@
-/*SELECT DB_NAME(dbid) AS NBADW,
+
+/*
+SELECT DB_NAME(dbid) AS NBADW,
 COUNT(dbid) AS NumberOfConnections,
 loginame
 INTO Original_Connections

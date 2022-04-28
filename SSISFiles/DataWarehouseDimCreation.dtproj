@@ -983,7 +983,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.NBA_DW_TableCreation.sql.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.NBADW_TableCreation.sql.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -998,7 +998,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.NBA_DW_TableCreation.sql.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.NBADW_TableCreation.sql.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1009,7 +1009,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\Users\Home\source\repos\leetroyjenkins\NBADataWarehouse\DataWarehouseDimCreation\NBA_DW_TableCreation.sql</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\Users\Home\source\repos\leetroyjenkins\NBADataWarehouse\DataWarehouseDimCreation\NBADW_TableCreation.sql</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
