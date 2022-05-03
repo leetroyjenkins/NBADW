@@ -1,4 +1,4 @@
-/*
+
 USE MASTER
 
 IF DB_ID (N'NBADW') IS NOT NULL
@@ -7,7 +7,7 @@ IF DB_ID (N'NBADW') IS NOT NULL
 CREATE DATABASE NBADW;
 
 GO
-*/
+
 USE NBADW;
 
 BEGIN TRAN create_dw_tables
@@ -177,3 +177,5 @@ COMMIT TRAN create_dw_tables;
 --ROLLBACK create_dw_tables;
 
 GO
+
+SELECT * FROM GameDim
