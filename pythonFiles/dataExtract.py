@@ -5,11 +5,8 @@ sources needed for the NBA DW.
 
 
 import os
-import nba_api.stats.endpoints
-import pandas as pd
 from pythonFiles.myfunctions import *
-from nba_api.stats.endpoints import CommonAllPlayers
-import requests
+
 
 
 
@@ -26,14 +23,10 @@ data_dir = cwd + '\\DataFiles\\'
 ###############################################################################
 
 # List of datasets/files to download
-#download_list = ['patrickhallila1994/nba-data-from-basketball-reference',
-#                 'boonpalipatana/nba-season-records-from-every-year']
+download_list = ['patrickhallila1994/nba-data-from-basketball-reference',
+                 'boonpalipatana/nba-season-records-from-every-year']
 
 # Download the datasets from Kaggle.
-#kaggle_download_and_unzip(dataset_list=download_list, save_path=source_dir)
+kaggle_download_and_unzip(dataset_list=download_list, save_path=source_dir)
 
-
-# Use the NBA API to get a list of all players from stats.nba.com
-nba_players = CommonAllPlayers().get_data_frames()
-
-#nba_players = nba_players2['']
+#%%
